@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Swap {
     public static void main(String[] args) {
-        System.out.println("welcme to swapping of two numbers: ");
+        System.out.println("welcome to swapping of two numbers: ");
         Scanner input=new Scanner(System.in);
         System.out.println("enter value of A: ");
         int A= input.nextInt();

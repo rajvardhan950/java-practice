@@ -12,7 +12,7 @@ public class MultiplicationTable {
             int i=0;
             while(i <= 10){
                 int sum=num*i;
-                System.out.println(num + "X" + i + "=" + (num*i));
+                System.out.println(num + "X" + i + "=" + (sum));
                 i++;
             }
         }

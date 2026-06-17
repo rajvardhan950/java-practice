@@ -14,6 +14,9 @@ public class Prime {
         }
     }
     public static boolean isPrime(int num){
+        if (num <= 1) {
+            return false;
+        }
         int i=2;
         while (i < num){
             if(num % i == 0) {
